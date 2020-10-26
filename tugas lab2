@@ -1,0 +1,34 @@
+# DDP LAB-2
+print("#Faizuddin AlQossam-TI04-0110220038")
+print("# SOAL 1 - Mencetak bilangan")
+#Program mencetak bilangan
+for i in range(100, 0, -2):
+    print(i, end=' ')
+print()
+
+print("# SOAL 2 - Menghitung rata-rata")
+# Tuliskan program untuk Soal 2 di bawah
+n = int(input("\nMasukkan banyaknya angka: "))
+print()
+#input variabel
+angka = []
+jum = 0
+for i in range(0, n):  #loop dan akses nilai
+    temp = int(input("Masukkan angka ke-%d: " % (i + 1)))
+    angka.append(temp)
+    jum += angka[i]
+    rata2 = jum / n
+#ouput hasil
+print("\nrata-rata = %0.2f" % rata2)
+print()
+print("sumber:kelasprogramer.com")
+print()
+
+print("# SOAL 3 - Mencetak persegi")
+# Tuliskan program untuk Soal 3 di bawah ini
+#input variabel
+a = int(input("masukkan bilangan bulat :"))
+print()
+#ouput
+for i in range(1, a):
+    print('#' * a, )
